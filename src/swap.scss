@@ -250,7 +250,7 @@
     small{
         display: block;
     }
-    button{
+    button.btn-submit{
         color: #212833;
     border-radius: 4px;
     padding-top: 4px;
@@ -274,6 +274,10 @@
     }
 
 
+}
+.buy-box{
+    display: flex;
+    align-items: center;
 }
 .form-swap__title{
     margin-bottom: 32px;
